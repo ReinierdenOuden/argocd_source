@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: reiniers-project1
+  project: default
 
   source:
     repoURL: https://github.com/ReinierdenOuden/argocd_source.git
